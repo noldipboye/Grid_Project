@@ -40,6 +40,10 @@ html {
 .item6 {
     grid-row: span 3;
     background-image: url(Screen\ Shot\ 2022-09-07\ at\ 9.22.46\ AM.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
 }
 
 
