@@ -19,6 +19,7 @@ html {
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: var(--textSize);
+    text-align: center;
 }
 
 .grid {
@@ -31,10 +32,17 @@ html {
 
 .item1{
     grid-column: span 2;
+    justify-content: center;
+
 }
 
 .item2 {
     grid-row: span 3;
+    background-image: url(Screen\ Shot\ 2022-09-07\ at\ 9.41.07\ AM.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
 }
 
 .item6 {
@@ -44,6 +52,7 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
+
 }
 
 
@@ -51,6 +60,10 @@ html {
     .grid {
         grid-template-columns: repeat (2, auto);
         grid-template-rows: repeat(7, 10vh);
+    }
+
+    .item {
+        font-size: 12px;
     }
 }
 
