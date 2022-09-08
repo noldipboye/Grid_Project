@@ -28,6 +28,7 @@ html {
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: repeat(7,12.8vh);
     grid-auto-flow: row;
+    object-fit: contain;
 }
 
 .item1{
@@ -36,13 +37,17 @@ html {
 
 }
 
+
+
 .item2 {
     grid-row: span 3;
-    background-image: url(Screen\ Shot\ 2022-09-07\ at\ 9.41.07\ AM.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
+    object-fit: contain;
+}
+
+.image1 {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
 }
 
 .item3 {
@@ -57,12 +62,13 @@ html {
 
 .item6 {
     grid-row: span 3;
-    background-image: url(Screen\ Shot\ 2022-09-07\ at\ 9.22.46\ AM.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display:flex;
 
+}
+
+.image2 {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
 }
 
 .item8 {
